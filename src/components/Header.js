@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../scss/style.scss';
 
 function Header({color}){
     return (
@@ -19,7 +20,3 @@ function Header({color}){
     )
 }
 export default Header;
-
-
-
-
