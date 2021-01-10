@@ -69,20 +69,7 @@ class Reference extends React.Component {
                                     <Title text={['Reference','book','Reference book']} />
                                 </div>
                                 <div className="referCont">
-                                    <h2>HTML</h2>
-                                    <ul>
-                                        {referHtml.map((info) => (
-                                            <ReferInfo 
-                                                key={info.id}
-                                                id={info.id}
-                                                title={info.title}
-                                                desc={info.desc}
-                                                category={info.category}
-                                                property={info.property}
-                                                element={info.element}
-                                            />
-                                        ))}
-                                    </ul>
+
                                     <h2 className="javascript">Javascript</h2>
                                     <ul>
                                         {refer.map((info) => (
